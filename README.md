@@ -1,6 +1,6 @@
 # TCN Server on AWS
 
-This repo contains server and infrastructure code for deploying and running CoEpi Cloud API on AWS.
+This repo contains server and infrastructure code for deploying and running CoEpi Cloud API on AWS, forked from CoEpi.
 
 There are two API frontends provided: an AWS Lambda (api-aws-lambda) and a standalone server (api-server). For more information on running the standalone server, see [api-server/README.md](api-server/README.md).
 
