@@ -23,7 +23,7 @@ Terraform tracks the [state of your infrastructure](https://www.terraform.io/doc
 
 #### Option 1: Remote Terraform State (Recommended)
 
-First, create an S3 bucket to store your Terraform [remote state](https://www.terraform.io/docs/backends/index.html). This will need to be uniquely named, and should be private and encrypted. A script has been provided to do this for you:
+First, create an S3 bucket to store your Terraform [remote state](https://www.terraform.io/docs/backends/index.html). This will need to be uniquely named, and should be private and encrypted. A script has been provided to do this for you when run on your local machine:
 
 ```shell script
 TFSTATE_BUCKET=your_bucket_name_here ./scripts/terraform_setup.sh
