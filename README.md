@@ -92,8 +92,8 @@ h0NRnh3cJgUtHeI3oycAsJhWPsechtfiDyxkKQun9sV9lO0LhZfRRm4sMYGoSSOEBjj9qhGbvSookL/p
 #### v4
 
 ```sh
-curl -X POST https://e6f2c4llfk.execute-api.us-west-1.amazonaws.com/v4/tcnreport/0.4.0 -d "<Base64 encoded report data>"
-curl -X GET https://e6f2c4llfk.execute-api.us-west-1.amazonaws.com/v4/tcnreport/0.4.0
+curl -X POST https://3cuu4bdkj0.execute-api.us-west-2.amazonaws.com/v4/tcnreport/0.4.0 -d "<Base64 encoded report data>"
+curl -X GET https://3cuu4bdkj0.execute-api.us-west-2.amazonaws.com/v4/tcnreport/0.4.0
 ```
 
 ## Running
